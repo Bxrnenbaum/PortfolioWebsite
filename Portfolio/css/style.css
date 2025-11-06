@@ -2,8 +2,9 @@
 
 body {
   font-family: "Lexend Deca", sans-serif;
-  background-color: darkslategrey;
+  background-color: darkslategray;
   color: white;
+  height: auto;
 }
 
 h1 {
@@ -26,6 +27,7 @@ p {
   flex-direction: row-reverse;
   align-items: start;
   width: 45%;
+  justify-content: start;
 }
 
 .card h2 {
@@ -45,8 +47,123 @@ p {
 
 .card img {
   display: flex;
-  width: 250px;
+  height: 180px;
   justify-content: start;
   margin: 10px;
   border-radius: 10px;
 }
+
+.card a:link {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.card a:visited {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.card a:hover {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.card-socials {
+  display: flex;
+  border: 3px solid rgb(60, 105, 105);
+  background-color: rgb(53, 92, 92);
+  border-radius: 20px;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 45%;
+  justify-content: start;
+}
+
+.card-socials h2 {
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.card-socials p {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+
+  width: 80%;
+}
+
+.card-socials img {
+  display: flex;
+  width: 100px;
+  justify-content: start;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card-socials a:link {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+
+}
+
+.card-socials a:visited {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.card-socials a:hover {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2vw;
+}
+

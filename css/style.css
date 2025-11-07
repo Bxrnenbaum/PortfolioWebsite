@@ -68,7 +68,7 @@ p {
 .card a:visited {
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: rgb(189, 189, 189);
   text-decoration: none;
 
   margin-right: 20px;

@@ -39,9 +39,14 @@ p {
   border-radius: 20px;
   flex-direction: row-reverse;
   align-items: start;
-  width: 90vw;
+  width: 95vw;
   justify-content: start;
   margin: 10px;
+  }
+
+  .card img{
+    height: 100px;
+    width: 100px;
   }
 }
 
